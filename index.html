@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars App</title>
+  <style>
+    .modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <h1>Star Wars App</h1>
+  <nav>
+    <button id="charactersBtn">Characters</button>
+    <button id="planetsBtn">Planets</button>
+    <button id="vehiclesBtn">Vehicles</button>
+  </nav>
+  <div id="content"></div>
+  <div class="modal" id="modal">
+    <button id="closeModalBtn">Close</button>
+    <div id="modalContent"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
